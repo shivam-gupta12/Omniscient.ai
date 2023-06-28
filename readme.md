@@ -5,8 +5,11 @@ Omniscient.ai is an assault detection system that utilizes computer vision techn
 Table of Contents
 
 Introduction
+
 Features
+
 Dataset
+
 
 In today's fast-paced world, ensuring the safety and security of public spaces is of paramount importance. Omniscient.ai is a state-of-the-art assault detection system that combines computer vision technologies with real-time alert mechanisms to swiftly respond to incidents of assault captured in CCTV surveillance videos.
 
