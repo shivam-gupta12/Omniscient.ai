@@ -69,7 +69,7 @@ def predict():
         result = 'Yes'
         subject = "Crime Detected"
         body = "Assault has been detected at \n Address : xyz,example stree,123 example apts,123456 \n Severity level : High \n at time :" + dt_string
-        recipient = "shivam.gupta.bpl003@gmail.com"
+        recipient = "enter your email id"
         send_email(subject, body, recipient, attachment_path=filepath)
         call = client.calls.create(
         twiml='<Response><Say>An assault has been detected at the location xyz,example street,123 example apts,123456 the severity level of the crime is high please take action immediately</Say></Response>',
