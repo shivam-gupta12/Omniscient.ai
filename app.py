@@ -19,12 +19,12 @@ dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 app = Flask(__name__)
 model = load_model('/Users/damodargupta/Desktop/Omniscient/model/model_updated7.h5')
 
-account_sid = 'AC556778f4b1825fd5ff7a42caf7c2d53b'
-auth_token = 'e7963e074d42ab2d9cf2fcae61dfbc9c'
+account_sid = 'enter your twilio sid'
+auth_token = 'enter twilio auth token'
 
 # Twilio phone numbers
-from_number = '+14344045895'
-to_number = '+919100545197'
+from_number = 'enter twilio phone number'
+to_number = 'enter your number'
 
 # Create a Twilio client object
 client = Client(account_sid, auth_token)
@@ -69,7 +69,7 @@ def predict():
         result = 'Yes'
         subject = "Crime Detected"
         body = "Assault has been detected at \n Address : xyz,example stree,123 example apts,123456 \n Severity level : High \n at time :" + dt_string
-        recipient = "shivam.gupta.bpl003@gmail.com , sameer.srivastava2021@vitbhopal.ac.in , harshkamdar67@gmail.com , kinsukh.sonbawne2021@vitbhopal.ac.in , tanisha.solanki2021@vitbhopal.ac.in"
+        recipient = "shivam.gupta.bpl003@gmail.com"
         send_email(subject, body, recipient, attachment_path=filepath)
         call = client.calls.create(
         twiml='<Response><Say>An assault has been detected at the location xyz,example street,123 example apts,123456 the severity level of the crime is high please take action immediately</Say></Response>',
