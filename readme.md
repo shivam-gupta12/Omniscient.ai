@@ -32,3 +32,10 @@ Omniscient.ai utilizes the UCF Crime Dataset available on Kaggle. This dataset c
 Please make sure to comply with the dataset's licensing and usage terms when working with the UCF Crime Dataset.
 
 https://www.kaggle.com/datasets/odins0n/ucf-crime-dataset
+
+# Application Screenshots
+
+![1687942388764](https://github.com/shivam-gupta12/Omniscient.ai/assets/109721120/ccd371f1-10b3-4286-abbf-9c7a136f520c)
+![1687938775705](https://github.com/shivam-gupta12/Omniscient.ai/assets/109721120/eae4fb0d-ef8d-417f-8ef0-cc9005076889)
+![1687938666386](https://github.com/shivam-gupta12/Omniscient.ai/assets/109721120/b648df89-a98d-4e98-959e-819068eed98f)
+![1687938640216](https://github.com/shivam-gupta12/Omniscient.ai/assets/109721120/bc232de5-1943-407e-987b-c246a2f63a0d)
